@@ -1,0 +1,25 @@
+{
+  "name": "borrower-management",
+  "displayName": "Borrower Management",
+  "version": "1.0.0",
+  "description": "Borrower records, contact details, and association with loans across the origination pipeline.",
+  "license": "MIT",
+  "entryPoint": "src/pages/Borrowers.tsx",
+  "files": {
+    "pages": [
+      "src/pages/Borrowers.tsx",
+      "src/pages/BorrowerDetail.tsx",
+      "src/pages/BorrowerForm.tsx"
+    ],
+    "hooks": [
+      "src/hooks/useBorrowers.ts"
+    ]
+  },
+  "edgeFunctions": [],
+  "database": {
+    "tables": [
+      "borrowers"
+    ]
+  },
+  "sharedEdgeFunctionUtils": []
+}
